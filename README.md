@@ -26,9 +26,10 @@ Grid es algo conocido como grid based layout system, una técnica de diseño que
 ### CSS
 
 1. Añadir la característica grid-area a las clases de los hijos.
-```.uno {grid-area: uno;}```
+```.uno {grid-area: uno;}
+```
 
-2. Añadir las características display: grid, grid-gap y grid-template-areas para establecer el grid, definir el espacio entre hijos y su orden, respectivamente. También personalizar como sea deseado. Ahora mismo el grid tiene una sola columna, más adelante utilizaremos media querys para adaptar el diseño a diferentes tamaños de pantalla.
+3. Añadir las características display: grid, grid-gap y grid-template-areas para establecer el grid, definir el espacio entre hijos y su orden, respectivamente. También personalizar como sea deseado. Ahora mismo el grid tiene una sola columna, más adelante utilizaremos media querys para adaptar el diseño a diferentes tamaños de pantalla.
 ```.padre {.padre
     color: white;
     display: grid;
