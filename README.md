@@ -26,10 +26,10 @@ Grid es algo conocido como grid based layout system, una técnica de diseño que
 ### CSS
 
 1. Añadir la característica grid-area a las clases de los hijos.
-Ej: .uno {grid-area: uno;}
+```.uno {grid-area: uno;}```
 
-2. Añadir las características display: grid, grid-gap y grid-template-areas para establecer el grid, definir el espacio entre hijos y su orden, respectivamente. También personalizar como sea deseado. Ahora mismo el grid tiene una sola columna, más adelante utilizaremos media querys para adaptar el diseño a diferentes tamaños de pantalla.
-Ej: .padre {.padre
+4. Añadir las características display: grid, grid-gap y grid-template-areas para establecer el grid, definir el espacio entre hijos y su orden, respectivamente. También personalizar como sea deseado. Ahora mismo el grid tiene una sola columna, más adelante utilizaremos media querys para adaptar el diseño a diferentes tamaños de pantalla.
+```.padre {.padre
     color: white;
     display: grid;
     grid-gap: 1em;
@@ -40,9 +40,10 @@ Ej: .padre {.padre
         "cuatro"
         "cinco"
     }
+```
 
-3. Personalizar las celdas.
-Ej: .box {
+5. Personalizar las celdas.
+```.box {
     background-color: black;
     border-radius: 5px;
     padding: 10px;
@@ -60,11 +61,12 @@ Ej: .box {
 .cinco {
     background-color: blue;
     }
+```
 
 <img src="./imgs/2.jpg" alt="">
 
 4. Añadir media-query para que el diseño sea responsive en tablets y dispositivos móviles. Utilizar grid-template-columns y de nuevo grid-template-areas para establecer el número de columnas y el orden de los hijos, respectivamente.
-Ej: @media only screen and (min-width: 600px)  {
+```@media only screen and (min-width: 600px)  {
     .padre {
         grid-template-columns: 20% auto;
         grid-template-areas:
@@ -74,10 +76,11 @@ Ej: @media only screen and (min-width: 600px)  {
         "cinco cinco";
     }
 }
+```
 
 <img src="./imgs/3.jpg" alt="">
 
-@media only screen and (min-width: 800px)   {
+```@media only screen and (min-width: 800px)   {
     .padre {
         grid-gap: 20px;
         grid-template-columns: 120px auto 120px;
@@ -88,5 +91,6 @@ Ej: @media only screen and (min-width: 600px)  {
         max-width: 600px;
     }
 }
+```
 
 <img src="./imgs/4.jpg" alt="">
