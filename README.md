@@ -94,3 +94,9 @@ Grid es algo conocido como grid based layout system, una técnica de diseño que
 ```
 
 <img src="./imgs/4.jpg" alt="">
+
+## Recursos
+
+- https://gridbyexample.com/
+- https://www.w3schools.com/css/css_grid.asp
+- https://alistapart.com/article/the-story-of-css-grid-from-its-creators/
