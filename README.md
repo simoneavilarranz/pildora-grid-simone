@@ -10,7 +10,9 @@ Grid es algo conocido como grid based layout system, una técnica de diseño que
 ### HTML
 
 1. Crear un contenedor padre con la etiqueta div, añadir una clase.
-Ej: "<div class="padre"> </div>"
+---
+   // <div class="padre"> </div>
+---
 
 4. Crear los hijos dentro con otros div, añadir clases individuales.
 Ej: "<div class="uno">1</div>"
