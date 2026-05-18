@@ -14,12 +14,12 @@ Grid es algo conocido como grid based layout system, una técnica de diseño que
 <div class="padre"> </div>
 ```
 
-4. Crear los hijos dentro con otros div, añadir clases individuales.
+2. Crear los hijos dentro con otros div, añadir clases individuales.
 ```
 <div class="uno">1</div>"
 ```
 
-6. Añadir el contenido deseado, en este caso los números del 1 al 5 y un Lorem Ipsum corto.
+3. Añadir el contenido deseado, en este caso los números del 1 al 5 y un Lorem Ipsum corto.
 
 <img src="./imgs/1.jpg" alt="">
 
@@ -28,7 +28,7 @@ Grid es algo conocido como grid based layout system, una técnica de diseño que
 1. Añadir la característica grid-area a las clases de los hijos.
 ```.uno {grid-area: uno;}```
 
-4. Añadir las características display: grid, grid-gap y grid-template-areas para establecer el grid, definir el espacio entre hijos y su orden, respectivamente. También personalizar como sea deseado. Ahora mismo el grid tiene una sola columna, más adelante utilizaremos media querys para adaptar el diseño a diferentes tamaños de pantalla.
+2. Añadir las características display: grid, grid-gap y grid-template-areas para establecer el grid, definir el espacio entre hijos y su orden, respectivamente. También personalizar como sea deseado. Ahora mismo el grid tiene una sola columna, más adelante utilizaremos media querys para adaptar el diseño a diferentes tamaños de pantalla.
 ```.padre {.padre
     color: white;
     display: grid;
@@ -42,7 +42,7 @@ Grid es algo conocido como grid based layout system, una técnica de diseño que
     }
 ```
 
-5. Personalizar las celdas.
+3. Personalizar las celdas.
 ```.box {
     background-color: black;
     border-radius: 5px;
